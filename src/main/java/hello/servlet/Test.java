@@ -42,8 +42,7 @@ public class Test {
                     return 0;
                 }
             });
-
-
+            System.out.println("AA");
             for (Student s : list) {
                 System.out.println(s.getScore());
             }
