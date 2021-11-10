@@ -21,5 +21,6 @@ public class RequestBodyJson extends HttpServlet {
 
         System.out.println(messageBody);
         resp.getWriter().write("okkk");
+        resp.getWriter().write("okkk");
     }
 }
