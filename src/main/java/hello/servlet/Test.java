@@ -20,7 +20,25 @@ class Student {
     }
 }
 public class Test {
+
+    private static void selectionSort(int[] arr) {
+        selectionSort(arr,0);
+    }
+ //                0,1,2,3,4,5,6
+//    int[] arr = {3,6,2,8,1,4};
+    private static void selectionSort(int[] arr, int start) {
+    }
+    private static void swap(int[] arr, int index1, int index2) {
+    }
+    private static void pritArray(int[] arr) {
+    }
+
     public static void main(String[] args) {
+        int[] arr = {3,6,2,8,1,4};
+        pritArray(arr);
+        selectionSort(arr);
+        pritArray(arr);
+
 
         {
             List<Student> list = new ArrayList<Student>();
@@ -44,8 +62,11 @@ public class Test {
             });
             System.out.println("AA");
             for (Student s : list) {
-                System.out.println(s.getScore());
+//                System.out.println(s.getScore());
             }
         }
+
+
+
     }
 }
