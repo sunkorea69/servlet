@@ -20,6 +20,6 @@ public class RequestBodyJson extends HttpServlet {
         String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
 
         System.out.println(messageBody);
-        resp.getWriter().write("ok");
+        resp.getWriter().write("okkk");
     }
 }
