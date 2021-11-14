@@ -1,6 +1,1 @@
-rr
-bb
-cc
-dd
-ee
-ff
+1
