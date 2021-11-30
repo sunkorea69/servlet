@@ -20,6 +20,10 @@ public class LogTestController {
         log.info("info");
         log.warn("warring");
         log.error("error");
+        String ls_a = "L04";
+        if (!ls_a.equals("L02") && !ls_a.equals("L03") ){
+            System.out.println('A');
+        }
 
         return "ok";
     }
