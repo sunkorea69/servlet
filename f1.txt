@@ -1,5 +1,2 @@
-source : 1
-source : 2
-source : 3 
-source : 4
-
+function () {
+}
