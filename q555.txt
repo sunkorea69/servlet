@@ -6,4 +6,9 @@ kkk
 =======
 
 exp upload
+<<<<<<< HEAD
+>>>>>>> exp
+=======
+
+exp upload
 >>>>>>> exp
